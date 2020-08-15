@@ -1,0 +1,70 @@
+<div id="cardBase">
+    <div class="margin">
+        <div class="cardHeader">
+            
+        </div>
+    
+        <div class="cardDetails" fxLayout="column" fxLayoutAlign="space-around">
+            <div class="cardUpdate">
+                <div fxLayout="row" fxLayoutAlign="space-evenly center" >
+                    <p>Life:</p>
+                    <button mat-icon-button>
+                        <mat-icon>expand_less</mat-icon>
+                    </button>
+                    <button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+                        <mat-icon>expand_more</mat-icon>
+                    </button>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Max</mat-label>
+                        <input matInput value="10">
+                    </mat-form-field>
+                </div>
+    
+                <div fxLayout="row" fxLayoutAlign="space-evenly center" >
+                    <p>Sanity:</p>
+                    <button mat-icon-button>
+                        <mat-icon>expand_less</mat-icon>
+                    </button>
+                    <button mat-icon-button aria-label="Example icon button with a vertical three dot icon">
+                        <mat-icon>expand_more</mat-icon>
+                    </button>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Max</mat-label>
+                        <input matInput value="10">
+                    </mat-form-field>
+                </div>
+                
+            </div>
+    
+            <div class="cardStats" fxLayout="column" fxLayoutAlign="space-around" >
+                <mat-slide-toggle>Surto de sanidade</mat-slide-toggle>
+                <mat-slide-toggle>Ferido</mat-slide-toggle>
+                <mat-slide-toggle>Cheirado de pó</mat-slide-toggle>
+                <mat-slide-toggle>Morrendo</mat-slide-toggle>
+                <mat-slide-toggle>Arma na mão</mat-slide-toggle>
+            </div>
+    
+            <div>
+                <p>Numero de Balas</p>
+            </div>
+    
+            <div class="ammo" fxLayout="row">
+                <div>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Current Ammo</mat-label>
+                        <input matInput value="10">
+                    </mat-form-field>
+                </div>
+                
+                <div>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Max. Ammo</mat-label>
+                        <input matInput value="10">
+                    </mat-form-field>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+</div>
