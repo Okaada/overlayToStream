@@ -5,9 +5,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Guide
 
 To start coding this project you will need:
--> A text editor, strongly reccomend Visual Code
+-> A text editor, strongly reccomend Visual Code.
+
 -> NodeJS: https://nodejs.org/en/
+
 -> Angular CLI: https://cli.angular.io/
+
 -> Typescript: https://www.typescriptlang.org/#installation
 
 ## Development server
